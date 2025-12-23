@@ -1,0 +1,88 @@
+{
+    "user_profile" : {
+        "gender" : "",
+        "age" : 0,
+        "height" : "",
+        "weight" : "",
+        "diet_pref" : "",
+        "time_for_workout" : 0,
+        "activity_level" : "",
+        "tone" : ""
+    },
+    "goal" : {
+        "primary_objective" : "",
+        "time_horizon_days" : 0,
+        "non_goals" : ["treatment advice", "medical diagnosis"],
+        "success_threshold" : 0.85
+    },
+    "constraints" : {
+        "physical" : [],
+        "mental" : [],
+        "dietary" : []
+    },
+
+    "current_plan" : {
+        "diet_plan" : {
+            "approach" : "",
+            "guidelines" : []
+        },
+        "exercise" : {
+            "duration_minutes" : 0,
+            "intensity" : "",
+            "routine" : [],
+            "frequency" : 0
+        },
+        "notes" : ""
+    },
+
+    "history": [
+  {
+    "timestamp": "",
+    "observation": {
+      "user_feedback": {
+        "workout_completed": null,
+        "diet_followed": null,
+        "reported_energy": null,
+        "notes": ""
+      }
+    },
+    "agent_evaluation": {
+      "assessment": "",
+      "action_needed": null
+    },
+    "llm_reasoning": {
+      "summary": "",
+      "suggested_changes": {
+        "load" : null
+      }
+    },
+    "action_taken": {
+      "type": "",
+      "details": ""
+    },
+    "state_changes": {
+      "exercise_duration_minutes": {
+        "from": 0,
+        "to": 0
+      }
+    }
+  }
+],
+
+
+    "progress": {
+        "adherence_score": 0.0,
+        "reported_energy_level": "",
+        "consistency_streak_days": 0,
+        "last_checkin": null
+    },
+
+    "agent_meta": {
+        "last_decision": null,
+        "last_reasoning_summary": null,
+        "last_action_taken": null,
+        "last_updated": null
+    }
+
+
+}
