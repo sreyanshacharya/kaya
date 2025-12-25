@@ -74,6 +74,7 @@
         "adherence_score": 0.0,
         "reported_energy_level": "",
         "consistency_streak_days": 0,
+        "overall_hunger" : "",
         "last_checkin": null
     },
 
