@@ -67,7 +67,8 @@
         "reported_energy_level": "",
         "consistency_streak_days": 0,
         "overall_hunger" : "",
-        "last_checkin": null
+        "last_checkin": null,
+        "day_count" : 0
     },
 
     "agent_meta": {
