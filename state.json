@@ -30,7 +30,8 @@
             "duration_minutes" : 0,
             "intensity" : "",
             "routine" : [],
-            "frequency" : 0
+            "frequency" : 0,
+            "change" : ""
         },
         "notes" : ""
     },
@@ -56,16 +57,7 @@
         "load" : null
       }
     },
-    "action_taken": {
-      "type": "",
-      "details": ""
-    },
-    "state_changes": {
-      "exercise_duration_minutes": {
-        "from": 0,
-        "to": 0
-      }
-    }
+    "action_taken": ""
   }
 ],
 
