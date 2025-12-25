@@ -21,7 +21,7 @@
         "dietary" : []
     },
 
-    "current_plan" : {
+    "current_plan" : { 
         "diet_plan" : {
             "approach" : "",
             "guidelines" : []
@@ -71,7 +71,6 @@
     },
 
     "agent_meta": {
-        "last_decision": null,
         "last_reasoning_summary": null,
         "last_action_taken": null,
         "last_updated": null
