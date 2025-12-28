@@ -13,7 +13,7 @@ from datetime import datetime
 from .actiondec import decide_action
 from .actions import ACTION_MAP
 
-STATE_PATH = Path(__file__).parent.parent / "test.json"
+STATE_PATH = Path(__file__).parent.parent / "state.json"
 
 def load_state() : 
   with open(STATE_PATH, "r") as f:

@@ -36,30 +36,7 @@
         }
     },
 
-    "history": [
-  {
-    "timestamp": "",
-    "observation": {
-      "user_feedback": {
-        "workout_completed": null,
-        "diet_followed": null,
-        "reported_energy": null,
-        "notes": ""
-      }
-    },
-    "agent_evaluation": {
-      "assessment": "",
-      "action_needed": null
-    },
-    "llm_reasoning": {
-      "summary": "",
-      "suggested_changes": {
-        "load" : null
-      }
-    },
-    "action_taken": ""
-  }
-],
+    "history": [],
 
 
     "progress": {

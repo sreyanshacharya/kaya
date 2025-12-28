@@ -6,8 +6,8 @@ from datetime import datetime
 client = genai.Client()
 
 def llm_generate(state, action=""):
-    with open("teststate.json", "r") as f:
-        state = json.load(f)
+    # with open("teststate.json", "r") as f:
+    #     state = json.load(f)
 
     goal = state["goal"].get("primary_objective", "")
     gtime = state["goal"].get("time_horizon_days", "")
