@@ -4,7 +4,7 @@
 
 ## What is Kaya?
 
-Kaya is an Agentic System that provides adaptive, non-clinical lifestyle guidance for fitness and health goals, specifically for people with diabetes. Instead of offering static plans or one-shot recommendations, Kaya operates as a long-term agent that:
+Kaya is an Agentic System that provides adaptive, non-clinical lifestyle guidance for fitness and health goals, specifically for people already diagnosed with diabetes. Instead of offering static plans or one-shot recommendations, Kaya operates as a long-term agent that:
 
 1. continuously adapts to user habits and feedback
 2. revisits recommended plans over time
@@ -123,6 +123,8 @@ It's responsibilities include :
 - Blocking unsafe or invalid actions
 
 This acts as a final checkpoint before before any action is excecuted. This ensures reliability even is the LLM's suggestions are uncertain.
+
+---
 
 ## Current Implementation Status
 
