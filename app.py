@@ -112,6 +112,40 @@ h3 {{
 .stButton > button:hover {{
     background-color: #DFD0B8;
 }}
+
+/* SELECTBOX WRAPPER */
+[data-testid="stSelectbox"] {{
+    background: transparent;
+}}
+
+/* Visible select field */
+[data-testid="stSelectbox"] > div {{
+    background-color: #696053 !important;
+    border-radius: 14px !important;
+    padding: 0.6rem 1rem !important;
+    border: 1px solid #948979 !important;
+}}
+
+/* Selected value text */
+[data-testid="stSelectbox"] span {{
+    color: white !important;
+    font-size: 1rem;
+}}
+
+/* Arrow icon */
+[data-testid="stSelectbox"] svg {{
+    fill: white !important;
+}}
+
+/* Remove inner weird blocks */
+[data-testid="stSelectbox"] input {{
+    padding: 0 !important;
+    height: 0 !important;
+    border: none !important;
+    background: transparent !important;
+}}
+
+
 </style>
 """, unsafe_allow_html=True)
 
