@@ -145,3 +145,21 @@ The current focus is on correctness, clarity and agentic behaviour rather than f
 These limitations are intentional to prioritize clean agent design, safety and ease of use, while ensuring scope for future developments.
 
 ## Running the System
+
+To run Kaya, follow these steps :
+
+1. Clone the repository using :
+
+- git clone https://github.com/sreyanshacharya/kaya.git
+
+2. Install the required libraries :
+
+- pip install -r requirements.txt
+
+3. Setup the .env file, ensuring GEMINI_API_KEY is present.
+
+4. Run the app :
+
+- streamlit run app.py
+
+Voila!
