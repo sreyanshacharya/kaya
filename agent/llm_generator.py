@@ -1,9 +1,9 @@
-import google.generativeai as genai
+from google import genai
 import json
 from jsonschema import validate, ValidationError
 from datetime import datetime
 
-model = genai.GenerativeModel("gemini-2.5-flash")
+client = genai.Client()
 
 def llm_generate(state, action=""):
     with open("teststate.json", "r") as f:
@@ -120,7 +120,9 @@ def llm_generate(state, action=""):
     {json.dumps(state["goal"], indent=2)}
     """
 
-    response = model.generate_content(prompt)
+    response = client.models.generate_content(
+        model = "gemini-2.5-flash",
+        contents = prompt)
     raw_output = response.text.strip()
 
     try:
