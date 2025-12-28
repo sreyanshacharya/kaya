@@ -2,8 +2,17 @@ from google import genai
 import json
 from jsonschema import validate, ValidationError
 from datetime import datetime
+import os
+from dotenv import load_dotenv
 
-client = genai.Client()
+load_dotenv()
+client = genai.Client(
+   api_key = os.getenv("GEMINI_API_KEY")
+)
+
+if os.getenv("GEMINI_API_KEY") is None:
+    raise RuntimeError("GEMINI_API_KEY not found in environment")
+
 
 def llm_generate(state, action=""):
     # with open("teststate.json", "r") as f:
