@@ -38,7 +38,7 @@ def llm_generate(state, action=""):
               "type": "string",
               "description": "Fiber guidance (e.g. high fiber vegetables)"
             },
-            "other_macronutrients": {
+            "other_micronutrients": {
               "type": "array",
               "items": {
                 "type": "string"
@@ -51,7 +51,7 @@ def llm_generate(state, action=""):
             "fats",
             "protein",
             "fiber",
-            "other_macronutrients"
+            "other_micronutrients"
           ],
           "additionalProperties": False
         },
