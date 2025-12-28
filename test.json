@@ -1,0 +1,98 @@
+{
+  "user_profile": {
+    "gender": "female",
+    "age": 20,
+    "height": "157",
+    "weight": "56",
+    "diet_pref": "vegetarian",
+    "time_for_workout": 60,
+    "activity_level": "moderate",
+    "tone": "friendly"
+  },
+  "goal": {
+    "primary_objective": "build fitness consistency",
+    "time_horizon_days": 30,
+    "non_goals": [
+      "treatment advice",
+      "medical diagnosis"
+    ],
+    "success_threshold": 0.85
+  },
+  "constraints": {
+    "physical": [
+      "no_equipment"
+    ],
+    "mental": [
+      "beginner_only"
+    ],
+    "dietary": [
+      "low_oil"
+    ]
+  },
+  "current_plan": {
+    "diet_plan": {
+      "approach": "simple balanced vegetarian meals",
+      "guidelines": [
+        "eat regular meals",
+        "include protein in every meal",
+        "avoid excessive fried food",
+        "less food quantity requested"
+      ]
+    },
+    "exercise": {
+      "duration_mins": 30,
+      "intensity": "low",
+      "routine": [
+        "walking",
+        "light stretching"
+      ],
+      "frequency": 5
+    },
+    "notes": "Initial low-effort plan for consistency"
+  },
+  "history": [
+    {},
+    {
+      "timestamp": "2025-12-27T15:11:21.270657",
+      "action_taken": "reduce_w_intensity",
+      "reason": "user reported low energy"
+    },
+    {
+      "timestamp": "2025-12-27T15:11:42.196763",
+      "action_taken": "reduce_w_intensity",
+      "reason": "user reported low energy"
+    },
+    {
+      "timestamp": "2025-12-27T15:14:14.552356",
+      "action_taken": "increase_w_intensity",
+      "reason": "user reported high energy"
+    },
+    {
+      "timestamp": "2025-12-27T15:15:08.343423",
+      "action_taken": "modify_diet_less_food",
+      "reason": "User reported low hunger"
+    },
+    {
+      "timestamp": "2025-12-27T15:15:41.292285",
+      "action_taken": "reduce_w_intensity",
+      "reason": "user reported low energy"
+    },
+    {
+      "timestamp": "2025-12-27T15:18:07.410047",
+      "action_taken": "reduce_w_intensity",
+      "reason": "user reported low energy"
+    }
+  ],
+  "progress": {
+    "adherence_score": 0.4,
+    "reported_energy_level": "low",
+    "overall_hunger": "normal",
+    "consistency_streak_days": 2,
+    "last_checkin": "2025-12-27T15:18:07.410047"
+  },
+  "agent_meta": {
+    "last_reasoning_summary": "user reported low energy",
+    "last_action_taken": "reduce_w_intensity",
+    "last_updated": "2025-12-27T15:18:07.410047"
+  }
+}
