@@ -1,17 +1,17 @@
 {
   "user_profile": {
-    "gender": "Female",
+    "gender": "Male",
     "age": 20,
-    "height": "157",
-    "weight": "55",
-    "diet_pref": "vegan",
-    "time_for_workout": 45,
+    "height": "165",
+    "weight": "60",
+    "diet_pref": "vegetarian",
+    "time_for_workout": 60,
     "activity_level": "moderate",
-    "tone": "neutral"
+    "tone": "friendly"
   },
   "goal": {
-    "primary_objective": "lose belly fat while simultaneously building muscle strength",
-    "time_horizon_days": 90,
+    "primary_objective": "progressively build muscle and strength while keeping fat gains to a minimum",
+    "time_horizon_days": 180,
     "non_goals": [
       "treatment advice",
       "medical diagnosis"
@@ -21,102 +21,37 @@
   "constraints": {
     "physical": [
       "no gym / equipment",
-      "can workout only for 4 days a week"
+      "can workout only for 5 days a week"
     ],
     "mental": [],
-    "dietary": []
+    "dietary": ["no peanuts"]
   },
   "current_plan": {
     "diet_plan": {
-      "carbs": "Moderate to high intake (260-270g per day), primarily from complex carbohydrates and high-volume sources. Focus on whole grains (oats, quinoa, brown rice, whole-wheat pasta), starchy vegetables (sweet potatoes, corn, peas), and abundant non-starchy vegetables (leafy greens, broccoli, bell peppers, zucchini) to increase satiety and food quantity without significantly increasing calories.",
-      "fats": "Moderate intake (50-60g per day) from healthy, plant-based sources. Prioritize fats from whole foods like avocados (in moderation), chia seeds, flax seeds, and a controlled amount of nuts (e.g., almonds, walnuts). Minimize added oils where possible to manage calorie density while ensuring adequate essential fatty acids.",
-      "protein": "High intake (100-110g per day) to support muscle building and satiety. Emphasize diverse vegan protein sources such as legumes (lentils, chickpeas, black beans), tofu, tempeh, edamame, seitan, high-protein grains (quinoa), and potentially a plant-based protein powder to meet daily targets efficiently. This supports muscle repair and growth.",
-      "fiber": "Very high intake from a wide variety of plant foods. Focus on consuming large quantities of fruits (especially berries), vegetables (all types), legumes, and whole grains. This significantly contributes to increased food volume and satiety while being low in calories, aiding in belly fat loss and overall digestive health.",
-      "other_micronutrients": [
-        "Hydration: Drink at least 2.5-3 liters of water per day.",
-        "Ensure adequate intake of B12, Vitamin D, and Omega-3 fatty acids (from algae-based sources if necessary), as these can sometimes be challenging to obtain sufficiently on a vegan diet.",
-        "Include a diverse range of colorful fruits and vegetables to ensure a broad spectrum of vitamins and minerals."
-      ]
+      "carbs": "",
+      "fats": "",
+      "protein": "",
+      "fiber": "",
+      "other_micronutrients": []
     },
     "exercise": {
-      "duration_minutes": 45,
-      "routine": "Four days a week of full-body bodyweight strength and metabolic conditioning, with rest days in between. Each 45-minute session includes a 5-minute dynamic warm-up, a 35-minute main workout combining strength circuits and metabolic finishers, and a 5-minute static cool-down.\n\n**Workout Schedule Example (4 days/week):**\n*   Day 1: Routine A\n*   Day 2: Routine B\n*   Day 3: Rest / Active Recovery (light walk)\n*   Day 4: Routine A\n*   Day 5: Rest / Active Recovery (light walk)\n*   Day 6: Routine B\n*   Day 7: Rest\n\n**Warm-up (5 minutes for each session):**\n*   Jumping Jacks: 1 minute\n*   Arm Circles (forward & backward): 30 seconds each direction\n*   Leg Swings (forward/backward & side-to-side): 30 seconds each leg, each direction\n*   Torso Twists: 1 minute\n*   Cat-Cow / Bird-Dog: 1 minute\n\n**Routine A (Days 1 & 4):**\n*   **Strength Circuit (Perform 3 rounds, 60 seconds rest between rounds):**\n    *   Bodyweight Squats: 3 sets of 15-20 reps (focus on full range of motion)\n    *   Push-ups (on knees, or elevated with hands on a stable surface for modification): 3 sets of 8-12 reps\n    *   Walking Lunges: 3 sets of 10-12 reps per leg (20-24 total)\n    *   Plank: 3 sets, hold for 30-60 seconds\n    *   Glute Bridges: 3 sets of 15-20 reps\n*   **Metabolic Finisher (Perform once, max effort with minimal rest):**\n    *   Burpees (modified without push-up if too challenging): 60 seconds\n    *   High Knees: 60 seconds\n\n**Routine B (Days 2 & 6):**\n*   **Strength Circuit (Perform 3 rounds, 60 seconds rest between rounds):**\n    *   Reverse Lunges: 3 sets of 10-12 reps per leg (20-24 total)\n    *   Incline Push-ups (hands on an elevated surface like a chair/table): 3 sets of 10-15 reps\n    *   Single-Leg Romanian Deadlifts (bodyweight, focus on balance and hamstring stretch): 3 sets of 10-12 reps per leg\n    *   Leg Raises (lying on back, lift legs without arching lower back): 3 sets of 15-20 reps\n    *   Superman: 3 sets of 12-15 reps (lying on stomach, lift arms and legs simultaneously)\n*   **Metabolic Finisher (Perform once, max effort with minimal rest):**\n    *   Mountain Climbers: 60 seconds\n    *   Skater Jumps: 60 seconds (30 seconds per side)\n\n**Cool-down (5 minutes for each session):**\n*   Static Hamstring Stretch: 30 seconds per leg\n*   Quadriceps Stretch: 30 seconds per leg\n*   Chest Stretch: 30 seconds\n*   Triceps Stretch: 30 seconds per arm\n*   Calf Stretch: 30 seconds per leg",
-      "change": "Implementation of a new comprehensive full-body bodyweight strength and metabolic conditioning program designed for 4 days a week, focusing on progressive overload and increased metabolic demand. The diet is modified to significantly increase food quantity through nutrient-dense, high-volume, lower-calorie-density foods, specifically targeting 100-110g protein, 50-60g fats, and 260-270g carbohydrates per day, while maintaining total caloric intake for effective body recomposition (fat loss and muscle gain)."
+      "duration_minutes": 0,
+      "routine": "",
+      "change": ""
     }
   },
-  "history": [
-    {
-      "timestamp": "2025-12-28T16:06:19.513888",
-      "action_taken": "reduce_w_intensity",
-      "reason": "user reported low energy"
-    },
-    {
-      "timestamp": "2025-12-28T16:11:39.654935",
-      "action_taken": "increase_w_intensity",
-      "reason": "user reported high energy"
-    },
-    {
-      "timestamp": "2025-12-28T16:13:21.618601",
-      "action_taken": "increase_w_intensity",
-      "reason": "user reported high energy"
-    },
-    {
-      "timestamp": "2025-12-28T16:33:23.605720",
-      "action_taken": "increase_w_intensity",
-      "reason": "user reported high energy"
-    },
-    {
-      "timestamp": "2025-12-28T16:33:46.390276",
-      "action_taken": "modify_diet_less_food",
-      "reason": "User reported low hunger"
-    },
-    {
-      "timestamp": "2025-12-28T17:49:32.110370",
-      "action_taken": "reduce_w_intensity",
-      "reason": "user reported low energy"
-    },
-    {
-      "timestamp": "2025-12-28T17:49:50.426817",
-      "action_taken": "modify_diet_more_food",
-      "reason": "User reported high hunger"
-    },
-    {
-      "timestamp": "2025-12-28T17:51:12.292797",
-      "action_taken": "reduce_w_intensity",
-      "reason": "user reported low energy"
-    },
-    {
-      "timestamp": "2025-12-28T17:51:36.357821",
-      "action_taken": "modify_diet_more_food",
-      "reason": "User reported high hunger"
-    },
-    {
-      "timestamp": "2025-12-28T17:52:33.721505",
-      "action_taken": "reduce_w_intensity",
-      "reason": "user reported low energy"
-    },
-    {
-      "timestamp": "2025-12-28T17:52:57.075690",
-      "action_taken": "modify_diet_more_food",
-      "reason": "User reported high hunger"
-    },
-    {
-      "timestamp": "2025-12-28T19:49:36.400377",
-      "action_taken": "modify_diet_more_food",
-      "reason": "User reported high hunger"
-    }
-  ],
+  "history": [],
   "progress": {
     "adherence_score": 0.0,
     "reported_energy_level": "normal",
-    "consistency_streak_days": 1,
+    "consistency_streak_days": 6,
     "overall_hunger": "high",
     "last_checkin": null,
     "day_count": 2
   },
   "agent_meta": {
-    "last_reasoning_summary": "User reported high hunger",
-    "last_decision": "modify_diet_more_food",
-    "updated": "2025-12-28T19:49:36.400388"
+    "last_reasoning_summary": "",
+    "last_decision": "",
+    "updated": ""
   }
 }
