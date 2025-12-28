@@ -30,18 +30,19 @@ def agent_step():
 
   #DECISION
   decision = decide_action(state)
-  action_type = decision["action_type"]
-  reason = decision["reason"]
+  for i in decision:
+    action_type = i["action_type"]
+    reason = i["reason"]
 
-  #ACTION TAKEN
-  if decision["action_required"]:
-    action_fn = ACTION_MAP[action_type]
-    action_fn(state, reason)
+    #ACTION TAKEN
+    if i["action_required"]:
+     action_fn = ACTION_MAP[action_type]
+     action_fn(state, reason)
 
-  #LOG TO META
-  state["agent_meta"]["last_decision"] = action_type
-  state["agent_meta"]["last_reasoning_summary"] = reason
-  state["agent_meta"]["updated"] = datetime.now().isoformat()
+    #LOG TO META
+    state["agent_meta"]["last_decision"] = action_type
+    state["agent_meta"]["last_reasoning_summary"] = reason
+    state["agent_meta"]["updated"] = datetime.now().isoformat()
 
   save_state(state)
 

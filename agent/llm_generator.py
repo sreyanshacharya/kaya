@@ -101,6 +101,8 @@ def llm_generate(state, action=""):
     Your task:
 
     Generate a new json that corresponds to the action : {action}
+    mention the quantity of the nutrients that is supposed to be taken per day.
+    Be sure to give out a very detailed exercise plan including the number of sets, reps and the duration of each exercise.
 
     Generate ONLY valid JSON matching the schema below.
     Do NOT include markdown, comments, or explanations.
@@ -124,6 +126,15 @@ def llm_generate(state, action=""):
         model = "gemini-2.5-flash",
         contents = prompt)
     raw_output = response.text.strip()
+
+
+    if raw_output.startswith("```"):
+      lines = raw_output.splitlines()
+      lines = lines[1:]
+      if lines and lines[-1].strip().startswith("```"):
+        lines = lines[:-1]
+      raw_output = "\n".join(lines).strip()
+
 
     try:
         plan_update = json.loads(raw_output)
