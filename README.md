@@ -32,6 +32,8 @@ These approaches fail when users deviate from the plan - which happens more ofte
 
 Kaya is designed to handle this uncertainty by reasoning and adapting over time, rather than sticking to fixed outputs.
 
+---
+
 ## Why an agentic System?
 
 This problem cannot be solved effectively with a single ML model or a one-shot LLM call.
@@ -45,6 +47,8 @@ Kaya is implemented as an autonomous agent because:
 
 The focus is how the system acts and evolves over time, not on model performance alone.
 
+---
+
 ## System Overview
 
 At a high level, Kaya operates as a goal-driven control loop with explicit memory and decision-making.
@@ -56,6 +60,8 @@ Observe → Decide → Generate → Apply → Persist
 - Uses an LLM to generate an updated plan only if required
 - Applies safe, validated changes
 - Persists state till the next iteration
+
+---
 
 ## Kaya's Architecture
 
@@ -135,6 +141,8 @@ This acts as a final checkpoint before before any action is excecuted. This ensu
 
 The current focus is on correctness, clarity and agentic behaviour rather than feature breadth.
 
+---
+
 ## Limitations & Future Work
 
 - No wearable or sensor data integration yet
@@ -143,6 +151,8 @@ The current focus is on correctness, clarity and agentic behaviour rather than f
 - UI is intentionally minimal as of this state.
 
 These limitations are intentional to prioritize clean agent design, safety and ease of use, while ensuring scope for future developments.
+
+---
 
 ## Running the System
 
@@ -163,3 +173,5 @@ To run Kaya, follow these steps :
 - streamlit run app.py
 
 Voila!
+
+---
