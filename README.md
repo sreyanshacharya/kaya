@@ -61,6 +61,8 @@ Observe → Decide → Generate → Apply → Persist
 - Applies safe, validated changes
 - Persists state till the next iteration
 
+![Kaya's Workflow](image.png)
+
 ---
 
 ## Kaya's Architecture
