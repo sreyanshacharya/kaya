@@ -1,4 +1,5 @@
 from datetime import datetime
+from .llm_generator import llm_generate
 
 def log_action(state, action_type, reason):
   state["history"].append({
@@ -7,39 +8,39 @@ def log_action(state, action_type, reason):
       "reason" : reason
     })
 
+def change_state(state, newplan):
+  state["current_plan"] = newplan["current_plan"]
+
 def do_nothing(state, reason):
   log_action(state, "do_nothing", reason)
 
 def reduce_w_intensity(state, reason):
-  exercise = state["current_plan"]["exercise"]
-  old = exercise.get("duration_minutes", 0)
-  exercise["duration_mins"] = max(10, old-5)
+  newplan = llm_generate(state, "reduce workout intensity")
+  change_state(state, newplan)
 
   log_action(state, "reduce_w_intensity", reason)
 
 def increase_w_intensity(state, reason):
-  exercise = state["current_plan"]["exercise"]
-  old = exercise.get("duration_minutes", 0)
-  exercise["duration_mins"] = old + 10
+  newplan = llm_generate(state, "increase workout intensity")
+  change_state(state, newplan)
 
   log_action(state, "increase_w_intensity", reason)
 
 def modify_diet_more_food(state, reason):
-  #llm magic
-  diet = state["current_plan"]["diet_plan"]
-  diet["guidelines"].append("more food quantity requested")
+  newplan = llm_generate(state, "modify diet to increase food quantity while keeping calories same")
+  change_state(state, newplan)
   
   log_action(state, "modify_diet_more_food", reason)
 
 def modify_diet_less_food(state, reason):
-  #llm magic again
-  diet = state["current_plan"]["diet_plan"]
-  diet["guidelines"].append("less food quantity requested")
+  newplan = llm_generate(state, "modift diet to reduce food quantity while ensuring all nutrient constraints are hit")
+  change_state(state, newplan)
 
   log_action(state, "modify_diet_less_food", reason)
 
 def change_workout(state, reason):
-  #llm changes entire workout
+  newplan = llm_generate(state, "change the workout completely")
+  change_state(state, newplan)
   log_action(state, "change_workout", reason)
 
 

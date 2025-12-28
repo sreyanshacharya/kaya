@@ -23,17 +23,17 @@
 
     "current_plan" : { 
         "diet_plan" : {
-            "approach" : "",
-            "guidelines" : []
+            "carbs" : "",
+            "fats" : "",
+            "protein" : "",
+            "fiber" : "",
+            "other_micronutrients" : []
         },
         "exercise" : {
             "duration_minutes" : 0,
-            "intensity" : "",
-            "routine" : [],
-            "frequency" : 0,
+            "routine" : "",
             "change" : ""
-        },
-        "notes" : ""
+        }
     },
 
     "history": [
