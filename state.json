@@ -28,20 +28,20 @@
   },
   "current_plan": {
     "diet_plan": {
-      "carbs": "Complex carbohydrates focused, portion-controlled to approximately 212g per day (~850 kcal). Emphasize whole grains (oats, brown rice, quinoa), starchy vegetables (sweet potatoes), and fruits. This quantity is designed to fuel workouts and support recovery while maintaining a calorie deficit.",
-      "fats": "Healthy fats intake, portion-controlled to approximately 48g per day (~430 kcal). Sources include avocados, nuts (almonds, walnuts), seeds (chia, flax, pumpkin), and moderate use of olive oil. These fats are essential for hormone production and nutrient absorption.",
-      "protein": "High plant-based protein intake, targeting approximately 110g per day (~440 kcal). Focus on a variety of vegan protein sources such as tofu, tempeh, seitan, lentils, beans, chickpeas, quinoa, edamame, and plant-based protein powders if needed to meet daily targets. This protein level is crucial for muscle preservation and growth during a calorie deficit.",
-      "fiber": "High fiber intake, targeting 25-30g per day, primarily from a wide variety of vegetables, fruits, whole grains, and legumes. High fiber contributes to satiety and digestive health.",
+      "carbs": "Moderate to high intake (260-270g per day), primarily from complex carbohydrates and high-volume sources. Focus on whole grains (oats, quinoa, brown rice, whole-wheat pasta), starchy vegetables (sweet potatoes, corn, peas), and abundant non-starchy vegetables (leafy greens, broccoli, bell peppers, zucchini) to increase satiety and food quantity without significantly increasing calories.",
+      "fats": "Moderate intake (50-60g per day) from healthy, plant-based sources. Prioritize fats from whole foods like avocados (in moderation), chia seeds, flax seeds, and a controlled amount of nuts (e.g., almonds, walnuts). Minimize added oils where possible to manage calorie density while ensuring adequate essential fatty acids.",
+      "protein": "High intake (100-110g per day) to support muscle building and satiety. Emphasize diverse vegan protein sources such as legumes (lentils, chickpeas, black beans), tofu, tempeh, edamame, seitan, high-protein grains (quinoa), and potentially a plant-based protein powder to meet daily targets efficiently. This supports muscle repair and growth.",
+      "fiber": "Very high intake from a wide variety of plant foods. Focus on consuming large quantities of fruits (especially berries), vegetables (all types), legumes, and whole grains. This significantly contributes to increased food volume and satiety while being low in calories, aiding in belly fat loss and overall digestive health.",
       "other_micronutrients": [
-        "Ensure a diverse intake of colorful fruits and vegetables to cover a broad spectrum of vitamins and minerals.",
-        "For vegans, focus on reliable sources of Vitamin B12 (fortified foods or supplementation is highly recommended), Iron (legumes, dark leafy greens, fortified cereals, paired with Vitamin C), Calcium (fortified plant milks, tofu, dark leafy greens), Vitamin D (sun exposure or supplementation), and Omega-3 fatty acids (flax seeds, chia seeds, walnuts, algal oil supplement).",
-        "Maintain excellent hydration by consuming 2-3 liters of water daily, especially around workouts."
+        "Hydration: Drink at least 2.5-3 liters of water per day.",
+        "Ensure adequate intake of B12, Vitamin D, and Omega-3 fatty acids (from algae-based sources if necessary), as these can sometimes be challenging to obtain sufficiently on a vegan diet.",
+        "Include a diverse range of colorful fruits and vegetables to ensure a broad spectrum of vitamins and minerals."
       ]
     },
     "exercise": {
       "duration_minutes": 45,
-      "routine": "Detailed 4-day-a-week bodyweight strength and cardio routine without equipment, focusing on compound movements and progressive overload:\n\n**Day 1: Full Body Strength (Upper Focus) - 45 Minutes**\n*   **Warm-up (5 minutes):** Jumping Jacks (60s), Arm Circles (forward & backward, 30s each), Torso Twists (60s), Dynamic Leg Swings (30s each leg/direction).\n*   **Workout (35 minutes):** Perform 3 sets of each exercise with 60 seconds rest between sets.\n    1.  **Push-ups (on knees or full):** 8-12 reps\n    2.  **Triceps Dips (using a sturdy chair/bench):** 10-15 reps\n    3.  **Inverted Rows (under a sturdy table/bar):** 8-12 reps\n    4.  **Plank:** Hold 30-60 seconds\n    5.  **Squats (Bodyweight):** 12-15 reps\n    6.  **Glute Bridges:** 12-15 reps\n*   **Cool-down (5 minutes):** Child's Pose (60s), Triceps Stretch (30s per arm), Chest Stretch (60s), Hamstring Stretch (30s per leg).\n\n**Day 2: Full Body Strength (Lower Focus) - 45 Minutes**\n*   **Warm-up (5 minutes):** High Knees (60s), Butt Kicks (60s), Dynamic Lunges (60s), Cat-Cow Stretch (60s).\n*   **Workout (35 minutes):** Perform 3 sets of each exercise with 60 seconds rest between sets.\n    1.  **Lunges (alternating legs):** 10-12 reps per leg\n    2.  **Calf Raises:** 15-20 reps\n    3.  **Wall Sit:** Hold 30-60 seconds\n    4.  **Side Plank:** Hold 30-45 seconds per side\n    5.  **Pike Push-ups (for shoulder strength):** 8-12 reps\n    6.  **Superman:** 12-15 reps\n*   **Cool-down (5 minutes):** Quad Stretch (30s per leg), Hip Flexor Stretch (30s per leg), Figure-Four Stretch (30s per leg), Downward Dog (60s).\n\n**Day 3: HIIT / Cardio & Core - 45 Minutes**\n*   **Warm-up (5 minutes):** Light Jogging in place (60s), Arm & Leg Swings (60s), Dynamic Stretches (3 mins).\n*   **Workout (35 minutes):** Perform each exercise for 45 seconds work, 15 seconds rest. Complete 3-4 rounds with 60-90 seconds rest between rounds.\n    1.  **Burpees (modified without push-up if needed)**\n    2.  **Mountain Climbers**\n    3.  **Squat Jumps (or regular squats)**\n    4.  **Bicycle Crunches**\n    5.  **Russian Twists**\n    6.  **High Knees**\n*   **Cool-down (5 minutes):** Full Body Stretch (hold each for 30s: Standing forward bend, quad stretch, arm across chest stretch).\n\n**Day 4: Active Recovery / Core & Flexibility - 45 Minutes**\n*   **Warm-up (5 minutes):** Gentle Neck Rolls (30s), Shoulder Rolls (30s), Cat-Cow (60s), Bird-Dog (60s).\n*   **Workout (35 minutes):** Focus on controlled movements and holding stretches.\n    1.  **Plank Variations (e.g., forearm plank, plank taps):** 3 sets, 45-60 seconds each\n    2.  **Dead Bug:** 3 sets of 10-12 reps per side\n    3.  **Leg Raises:** 3 sets of 12-15 reps\n    4.  **Cobra Stretch:** 3 sets, hold 30 seconds\n    5.  **Pigeon Pose (or Figure 4 Stretch):** 2 sets, hold 60 seconds per side\n    6.  **Spinal Twist (supine):** 2 sets, hold 60 seconds per side\n*   **Cool-down (5 minutes):** Deep Breathing and Meditation (focused breathing): 5 minutes.",
-      "change": "The diet plan has been modified to reduce overall food quantity, targeting approximately 1720 calories per day, while meticulously ensuring all macronutrient (protein ~110g, fats ~48g, carbs ~212g) and micronutrient needs are met for a vegan individual aiming for fat loss and muscle gain. The exercise plan is a newly generated, detailed bodyweight routine structured for 4 days a week, each 45 minutes long, to specifically target muscle strength and fat loss without requiring gym equipment, accommodating the user's constraints."
+      "routine": "Four days a week of full-body bodyweight strength and metabolic conditioning, with rest days in between. Each 45-minute session includes a 5-minute dynamic warm-up, a 35-minute main workout combining strength circuits and metabolic finishers, and a 5-minute static cool-down.\n\n**Workout Schedule Example (4 days/week):**\n*   Day 1: Routine A\n*   Day 2: Routine B\n*   Day 3: Rest / Active Recovery (light walk)\n*   Day 4: Routine A\n*   Day 5: Rest / Active Recovery (light walk)\n*   Day 6: Routine B\n*   Day 7: Rest\n\n**Warm-up (5 minutes for each session):**\n*   Jumping Jacks: 1 minute\n*   Arm Circles (forward & backward): 30 seconds each direction\n*   Leg Swings (forward/backward & side-to-side): 30 seconds each leg, each direction\n*   Torso Twists: 1 minute\n*   Cat-Cow / Bird-Dog: 1 minute\n\n**Routine A (Days 1 & 4):**\n*   **Strength Circuit (Perform 3 rounds, 60 seconds rest between rounds):**\n    *   Bodyweight Squats: 3 sets of 15-20 reps (focus on full range of motion)\n    *   Push-ups (on knees, or elevated with hands on a stable surface for modification): 3 sets of 8-12 reps\n    *   Walking Lunges: 3 sets of 10-12 reps per leg (20-24 total)\n    *   Plank: 3 sets, hold for 30-60 seconds\n    *   Glute Bridges: 3 sets of 15-20 reps\n*   **Metabolic Finisher (Perform once, max effort with minimal rest):**\n    *   Burpees (modified without push-up if too challenging): 60 seconds\n    *   High Knees: 60 seconds\n\n**Routine B (Days 2 & 6):**\n*   **Strength Circuit (Perform 3 rounds, 60 seconds rest between rounds):**\n    *   Reverse Lunges: 3 sets of 10-12 reps per leg (20-24 total)\n    *   Incline Push-ups (hands on an elevated surface like a chair/table): 3 sets of 10-15 reps\n    *   Single-Leg Romanian Deadlifts (bodyweight, focus on balance and hamstring stretch): 3 sets of 10-12 reps per leg\n    *   Leg Raises (lying on back, lift legs without arching lower back): 3 sets of 15-20 reps\n    *   Superman: 3 sets of 12-15 reps (lying on stomach, lift arms and legs simultaneously)\n*   **Metabolic Finisher (Perform once, max effort with minimal rest):**\n    *   Mountain Climbers: 60 seconds\n    *   Skater Jumps: 60 seconds (30 seconds per side)\n\n**Cool-down (5 minutes for each session):**\n*   Static Hamstring Stretch: 30 seconds per leg\n*   Quadriceps Stretch: 30 seconds per leg\n*   Chest Stretch: 30 seconds\n*   Triceps Stretch: 30 seconds per arm\n*   Calf Stretch: 30 seconds per leg",
+      "change": "Implementation of a new comprehensive full-body bodyweight strength and metabolic conditioning program designed for 4 days a week, focusing on progressive overload and increased metabolic demand. The diet is modified to significantly increase food quantity through nutrient-dense, high-volume, lower-calorie-density foods, specifically targeting 100-110g protein, 50-60g fats, and 260-270g carbohydrates per day, while maintaining total caloric intake for effective body recomposition (fat loss and muscle gain)."
     }
   },
   "history": [
@@ -69,19 +69,54 @@
       "timestamp": "2025-12-28T16:33:46.390276",
       "action_taken": "modify_diet_less_food",
       "reason": "User reported low hunger"
+    },
+    {
+      "timestamp": "2025-12-28T17:49:32.110370",
+      "action_taken": "reduce_w_intensity",
+      "reason": "user reported low energy"
+    },
+    {
+      "timestamp": "2025-12-28T17:49:50.426817",
+      "action_taken": "modify_diet_more_food",
+      "reason": "User reported high hunger"
+    },
+    {
+      "timestamp": "2025-12-28T17:51:12.292797",
+      "action_taken": "reduce_w_intensity",
+      "reason": "user reported low energy"
+    },
+    {
+      "timestamp": "2025-12-28T17:51:36.357821",
+      "action_taken": "modify_diet_more_food",
+      "reason": "User reported high hunger"
+    },
+    {
+      "timestamp": "2025-12-28T17:52:33.721505",
+      "action_taken": "reduce_w_intensity",
+      "reason": "user reported low energy"
+    },
+    {
+      "timestamp": "2025-12-28T17:52:57.075690",
+      "action_taken": "modify_diet_more_food",
+      "reason": "User reported high hunger"
+    },
+    {
+      "timestamp": "2025-12-28T19:49:36.400377",
+      "action_taken": "modify_diet_more_food",
+      "reason": "User reported high hunger"
     }
   ],
   "progress": {
     "adherence_score": 0.0,
-    "reported_energy_level": "high",
+    "reported_energy_level": "normal",
     "consistency_streak_days": 1,
-    "overall_hunger": "low",
+    "overall_hunger": "high",
     "last_checkin": null,
     "day_count": 2
   },
   "agent_meta": {
-    "last_reasoning_summary": "User reported low hunger",
-    "last_decision": "modify_diet_less_food",
-    "updated": "2025-12-28T16:33:46.390291"
+    "last_reasoning_summary": "User reported high hunger",
+    "last_decision": "modify_diet_more_food",
+    "updated": "2025-12-28T19:49:36.400388"
   }
 }
