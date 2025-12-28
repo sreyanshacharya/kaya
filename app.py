@@ -2,7 +2,7 @@ import streamlit as st
 import json
 from pathlib import Path
 
-from agent.agent import agent_step  # or run_agent_step if that’s your name
+from agent.agent import agent_step 
 
 if "page" not in st.session_state:
     st.session_state.page = "Home"
@@ -26,8 +26,8 @@ st.set_page_config(
     layout="centered",
     initial_sidebar_state="collapsed"
 )
-PRIMARY = "#948979"     # soft indigo
-BG = "#222831"           # deep navy
+PRIMARY = "#948979"    
+BG = "#222831"           
 CARD = "#696053"
 TEXT = "#ffffff"
 MUTED = "#9CA3AF"
@@ -93,10 +93,10 @@ h3 {{
 
     /* SIZE CONTROL */
     padding: 1.2rem 2rem;    
-    font-size: 1.5rem;        /* ⬅️ bigger text */
+    font-size: 1.5rem;        
     font-weight: 600;
 
-    width: 100%;              /* full-width buttons */
+    width: 100%;              
     height: auto;
 
     border: none;
@@ -152,10 +152,8 @@ if st.button("📝 Feedback", use_container_width=True):
     st.session_state.page = "Feedback"
     st.rerun()
 
-# ------------------------
-# Current Plan Display
-# ------------------------
 
+# Current Plan Display
 diet = state["current_plan"]["diet_plan"]
 exercise = state["current_plan"]["exercise"]
 
@@ -179,9 +177,8 @@ if st.session_state.page == "Workout":
     st.markdown(f"**Routine:** {exercise['routine']}")
     st.markdown(f"**Change:** {exercise['change']}")
 
-# ------------------------
+
 # Daily Check-in
-# ------------------------
 if st.session_state.page == "Feedback":
     st.subheader("📝 Daily Check-in")
     st.markdown("<p class='muted'>How are you feeling today?</p>", unsafe_allow_html=True)
