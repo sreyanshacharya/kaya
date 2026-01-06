@@ -7,10 +7,10 @@ from agent.agent import agent_step
 if "page" not in st.session_state:
     st.session_state.page = "Home"
 
-
 STATE_PATH = Path(__file__).parent / "state.json"
 
-
+if "regen_confirmed" not in st.session_state:
+    st.session_state.regen_confirmed = False
 
 def load_state():
     with open(STATE_PATH, "r") as f:
@@ -26,6 +26,34 @@ st.set_page_config(
     layout="centered",
     initial_sidebar_state="collapsed"
 )
+
+@st.dialog("Confirm plan regeneration")
+def confirm_regen():
+    st.write("Are you sure you want to regenerate the plan?")
+    st.caption("This will replace your current plan.")
+
+
+    col1, col2 = st.columns(2)
+    reason = st.text_area(
+                "Tell us why you want to change the plan",
+                placeholder="e.g. Feeling low energy, plan feels too intense, schedule changed…"
+            )
+    with col1:
+        if st.button("Confirm"):
+            
+            if reason.strip() == "":
+                st.warning("Please tell us the reason before continuing.")
+            else:
+                st.info("Thanks for the feedback! Plan regeneration in progress...")
+                st.session_state.regen_confirmed=True
+                st.rerun()
+
+    with col2:
+        if st.button("Cancel"):
+            st.info("Regeneration cancelled successfully.")
+            st.session_state.regen_confirmed=False
+            st.rerun()
+
 PRIMARY = "#948979"    
 BG = "#222831"           
 CARD = "#696053"
@@ -186,6 +214,15 @@ if st.button("📝 Feedback", use_container_width=True):
     st.session_state.page = "Feedback"
     st.rerun()
 
+if st.button("Regenerate Plan"):
+    confirm_regen()
+
+if st.session_state.regen_confirmed:
+    with st.spinner("Re-evaluating your plan..."):
+        pass
+    st.info("Task complete!")
+    st.session_state.regen_confirmed = False
+    
 
 # Current Plan Display
 diet = state["current_plan"]["diet_plan"]
