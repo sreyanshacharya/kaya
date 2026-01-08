@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 
 from agent.agent import agent_step 
+from agent.regenerate import regenerate
 
 if "page" not in st.session_state:
     st.session_state.page = "Home"
@@ -45,6 +46,12 @@ def confirm_regen():
                 st.warning("Please tell us the reason before continuing.")
             else:
                 st.info("Thanks for the feedback! Plan regeneration in progress...")
+                regenerate(state, reason)
+                last_action = state["agent_meta"].get("last_action_taken")
+                if last_action == "regeneration_skipped":
+                    st.error("LLM is temporarily unavailable. Existing plan has been retained.")
+                else:
+                    st.success("Plan regenerated successfully.")
                 st.session_state.regen_confirmed=True
                 st.rerun()
 

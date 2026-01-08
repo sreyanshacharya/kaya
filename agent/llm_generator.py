@@ -4,6 +4,7 @@ from jsonschema import validate, ValidationError
 from datetime import datetime
 import os
 from dotenv import load_dotenv
+from google.genai.errors import ServerError
 
 load_dotenv(dotenv_path=".\key.env")
 client = genai.Client(
@@ -150,6 +151,9 @@ def llm_generate(state, action=""):
         validate(instance=plan_update, schema=OUTPUT_SCHEMA)
     except (json.JSONDecodeError, ValidationError) as e:
         raise RuntimeError("Invalid LLM output") from e
+    except ServerError as e:
+       raise RuntimeError("LLM Temporarily Unavailable") from e
+       
 
     return plan_update
 
