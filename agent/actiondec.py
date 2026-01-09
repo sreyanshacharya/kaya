@@ -7,21 +7,12 @@
 def decide_action(state):
   progress = state.get("progress", {})
 
-  changew = state["current_plan"]["exercise"].get("change", "")
   energy = progress.get("reported_energy_level", "")
   hunger = progress.get("overall_hunger", "")
   ans=[]
   flag=False
 
 #workout
-
-  if changew == "True":
-     ans.append({
-        "action_required" : True,
-        "action_type" : "change_workout",
-        "reason" : "user requested complete change of workout plan"
-     })
-     flag=True
 
   if energy == "low":
     ans.append({
