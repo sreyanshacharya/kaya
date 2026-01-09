@@ -24,34 +24,66 @@
       "can workout only for 5 days a week"
     ],
     "mental": [],
-    "dietary": ["no peanuts"]
+    "dietary": [
+      "no peanuts"
+    ]
   },
   "current_plan": {
     "diet_plan": {
-      "carbs": "",
-      "fats": "",
-      "protein": "",
-      "fiber": "",
-      "other_micronutrients": []
+      "carbs": "Approximately 415g per day. Focus on complex carbohydrates such as oats, brown rice, quinoa, whole wheat bread, sweet potatoes, and lentils to provide sustained energy for workouts and muscle recovery.",
+      "fats": "Approximately 55g per day. Prioritize healthy fats from sources like avocado, almonds, walnuts, chia seeds, flax seeds, sunflower seeds, and a moderate use of olive oil. Avoid peanuts due to dietary restrictions.",
+      "protein": "Approximately 120g per day. Ensure adequate plant protein intake through a variety of sources including lentils, beans, chickpeas, tofu, tempeh, paneer/cottage cheese, Greek yogurt (if consumed), soy milk, and plant-based protein powders.",
+      "fiber": "High fiber intake from a wide variety of vegetables (leafy greens, broccoli, bell peppers), fruits (berries, apples, bananas), and whole grains to support digestion and overall health.",
+      "other_micronutrients": [
+        "Stay well-hydrated by drinking at least 2.5-3 liters of water per day.",
+        "Include a diverse range of fruits and vegetables to ensure a comprehensive intake of vitamins and minerals.",
+        "Consider a B12 supplement as per doctor's advice, common for vegetarian diets."
+      ]
     },
     "exercise": {
-      "duration_minutes": 0,
-      "routine": "",
-      "change": ""
+      "duration_minutes": 60,
+      "routine": "This is a 5-day per week strength training program focusing on muscle hypertrophy and strength, incorporating dumbbells and a bench press. Each session includes a warm-up, main workout, and cool-down, fitting within the 60-minute timeframe.\n\n**Workout Schedule (5 Days a Week):**\n*   **Day 1: Chest & Triceps**\n*   **Day 2: Back & Biceps**\n*   **Day 3: Legs & Shoulders**\n*   **Day 4: Rest**\n*   **Day 5: Upper Body Focus (Push Emphasis)**\n*   **Day 6: Lower Body & Core Focus**\n*   **Day 7: Rest**\n\n**General Warm-up (5-10 minutes before each session):**\n*   Light cardio (e.g., jumping jacks, high knees): 3 minutes\n*   Dynamic stretches (e.g., arm circles, leg swings, torso twists): 5-7 minutes\n\n**General Cool-down (5-10 minutes after each session):**\n*   Static stretches, holding each for 20-30 seconds (e.g., triceps stretch, hamstring stretch, chest stretch, quad stretch, shoulder stretch).\n\n**Day 1: Chest & Triceps (Approx. 40-45 min main workout)**\n*   **Bench Press (Barbell or Dumbbell):** 3 sets of 8-12 reps (60 seconds rest between sets)\n*   **Dumbbell Incline Press:** 3 sets of 10-15 reps (60 seconds rest between sets)\n*   **Dumbbell Flyes (Flat or Incline):** 3 sets of 12-15 reps (45-60 seconds rest between sets)\n*   **Dumbbell Close-Grip Press (on bench):** 3 sets of 10-15 reps (60 seconds rest between sets)\n*   **Overhead Dumbbell Extension (Triceps):** 3 sets of 12-15 reps (45-60 seconds rest between sets)\n*   **Dumbbell Kickbacks:** 3 sets of 15-20 reps per arm (30-45 seconds rest between sets)\n\n**Day 2: Back & Biceps (Approx. 40-45 min main workout)**\n*   **Dumbbell Rows (Single Arm):** 3 sets of 8-12 reps per arm (60-90 seconds rest between sets)\n*   **Dumbbell Pullovers (on bench):** 3 sets of 10-15 reps (60 seconds rest between sets)\n*   **Bent-Over Dumbbell Reverse Flyes:** 3 sets of 12-15 reps (45-60 seconds rest between sets)\n*   **Dumbbell Bicep Curls:** 3 sets of 10-15 reps (60 seconds rest between sets)\n*   **Hammer Curls (Dumbbell):** 3 sets of 12-15 reps (45-60 seconds rest between sets)\n*   **Concentration Curls (Dumbbell):** 2 sets of 12-15 reps per arm (30-45 seconds rest between sets)\n\n**Day 3: Legs & Shoulders (Approx. 40-45 min main workout)**\n*   **Dumbbell Squats (Goblet Squat or holding dumbbells at sides):** 3 sets of 10-15 reps (60 seconds rest between sets)\n*   **Dumbbell Lunges:** 3 sets of 10-12 reps per leg (60 seconds rest between sets)\n*   **Dumbbell Romanian Deadlifts (RDLs):** 3 sets of 12-15 reps (60 seconds rest between sets)\n*   **Dumbbell Calf Raises (standing):** 3 sets of 15-20 reps (30-45 seconds rest between sets)\n*   **Dumbbell Overhead Press (Standing or Seated):** 3 sets of 8-12 reps (60 seconds rest between sets)\n*   **Dumbbell Lateral Raises:** 3 sets of 12-15 reps (45 seconds rest between sets)\n*   **Dumbbell Front Raises:** 3 sets of 12-15 reps (45 seconds rest between sets)\n\n**Day 4: Rest**\n\n**Day 5: Upper Body Focus (Push Emphasis) (Approx. 40-45 min main workout)**\n*   **Bench Press (Dumbbell, Flat):** 3 sets of 8-12 reps (60 seconds rest between sets)\n*   **Dumbbell Seated Overhead Press:** 3 sets of 10-15 reps (60 seconds rest between sets)\n*   **Push-ups (Elevated feet for increased difficulty, if possible):** 3 sets to failure (60 seconds rest between sets)\n*   **Dumbbell Upright Rows:** 3 sets of 12-15 reps (45 seconds rest between sets)\n*   **Triceps Dips (using a sturdy bench or chair):** 3 sets to failure (45-60 seconds rest between sets)\n*   **Dumbbell Floor Press (alternative to bench if tired or for variation):** 3 sets of 10-15 reps (60 seconds rest between sets)\n\n**Day 6: Lower Body & Core Focus (Approx. 40-45 min main workout)**\n*   **Dumbbell Sumo Squats:** 3 sets of 10-15 reps (60 seconds rest between sets)\n*   **Dumbbell Step-ups (on bench):** 3 sets of 10-12 reps per leg (60 seconds rest between sets)\n*   **Glute Bridges (Weighted with dumbbell across hips):** 3 sets of 15-20 reps (45 seconds rest between sets)\n*   **Plank:** 3 sets, hold for 45-60 seconds each (60 seconds rest between sets)\n*   **Russian Twists (Weighted with dumbbell):** 3 sets of 15-20 reps per side (45 seconds rest between sets)\n*   **Leg Raises:** 3 sets of 15-20 reps (45 seconds rest between sets)\n\n**Day 7: Rest**\n\n**Progression:** Aim to progressively increase the weight of the dumbbells, the number of reps, or the number of sets over time to ensure continuous muscle and strength gains. Once you can comfortably complete the higher end of the rep range with good form, consider increasing the weight.",
+      "change": "This plan is a complete regeneration, incorporating the user's request for more exercises that include dumbbells and bench press. The previous constraint of 'no gym / equipment' has been overridden by the user's latest request. The nutrient quantities (protein, carbs, fats) have been specified in grams, and the workout schedule is detailed day-wise with sets, reps, and durations."
     }
   },
-  "history": [],
+  "history": [
+    {
+      "timestamp": "2026-01-09T09:13:49.374389",
+      "action_taken": "reduce_w_intensity",
+      "reason": "user reported low energy"
+    },
+    {
+      "timestamp": "2026-01-09T09:33:45.066217",
+      "action_taken": "reduce_w_intensity",
+      "reason": "user reported low energy"
+    },
+    {
+      "timestamp": "2026-01-09T09:34:16.108189",
+      "action_taken": "modify_diet_more_food",
+      "reason": "User reported high hunger"
+    },
+    {
+      "timestamp": "2026-01-09T09:37:43.863128",
+      "action_taken": "increase_w_intensity",
+      "reason": "user reported high energy"
+    },
+    {
+      "timestamp": "2026-01-09T10:43:03.624319",
+      "action_taken": "manual_regenerate_used",
+      "reason": "i want more excercises that include dumbells and bench press."
+    }
+  ],
   "progress": {
     "adherence_score": 0.0,
-    "reported_energy_level": "normal",
+    "reported_energy_level": "high",
     "consistency_streak_days": 6,
-    "overall_hunger": "high",
+    "overall_hunger": "normal",
     "last_checkin": null,
     "day_count": 2
   },
   "agent_meta": {
-    "last_reasoning_summary": "",
-    "last_decision": "",
-    "updated": ""
+    "last_reasoning_summary": "regenerated plan due to user request.",
+    "last_decision": "manually_regenerated",
+    "updated": "2026-01-09T10:43:03.624345"
   }
 }
