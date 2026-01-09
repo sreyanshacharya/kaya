@@ -28,6 +28,8 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
+state = load_state()
+
 @st.dialog("Confirm plan regeneration")
 def confirm_regen():
     st.write("Are you sure you want to regenerate the plan?")
@@ -47,7 +49,7 @@ def confirm_regen():
             else:
                 st.info("Thanks for the feedback! Plan regeneration in progress...")
                 regenerate(state, reason)
-                last_action = state["agent_meta"].get("last_action_taken")
+                last_action = state['agent_meta'].get("last_decision")
                 if last_action == "regeneration_skipped":
                     st.error("LLM is temporarily unavailable. Existing plan has been retained.")
                 else:
@@ -139,6 +141,12 @@ h3 {{
     transform: scale(1.03);
     background-color: #7F7465;
 }}
+.tagline{{
+    text-align: center;
+    color: {MUTED};
+    font-family: Poriet One, serif !important;
+    font-size: 1rem !important;
+}}
 .center {{
     text-align: center;
     font-family: Poriet One, serif !important;
@@ -185,8 +193,6 @@ h3 {{
 """, unsafe_allow_html=True)
 
 
-state = load_state()
-
 st.sidebar.title("Kaya")
 
 page = st.sidebar.radio(
@@ -200,7 +206,7 @@ st.session_state.page = page
 if st.session_state.page == "Home":
     st.title("Kaya")
     st.markdown(
-        "<p class='muted center'>Your adaptive health companion</p>",
+        "<p class='tagline'>Your Adaptive Health Companion</p>",
         unsafe_allow_html=True
     )
     st.markdown("<br>", unsafe_allow_html=True)
@@ -221,7 +227,7 @@ if st.button("📝 Feedback", use_container_width=True):
     st.session_state.page = "Feedback"
     st.rerun()
 
-if st.button("Regenerate Plan"):
+if st.button("♻️ Regenerate Plan"):
     confirm_regen()
 
 if st.session_state.regen_confirmed:
@@ -253,7 +259,7 @@ if st.session_state.page == "Workout":
 
     st.markdown(f"**Duration:** {exercise['duration_minutes']} minutes")
     st.markdown(f"**Routine:** {exercise['routine']}")
-    st.markdown(f"**Change:** {exercise['change']}")
+    st.markdown(f"**Advice:** {exercise['change']}")
 
 
 # Daily Check-in
